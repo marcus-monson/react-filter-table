@@ -1,0 +1,61 @@
+body {
+  font-family: sans-serif;
+}
+
+.container-wrapper {
+  max-width: 1240px;
+  margin: 30px auto auto auto;
+}
+
+nav {
+  border-bottom: 1px solid gray;
+  padding: 10px 0;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.container {
+  margin-top: 20px;
+}
+
+.transaction-detail {
+  display: flex;
+  flex-direction: column;
+}
+
+.detail-label {
+  font-weight: 500;
+  margin: 5px;
+}
+
+.detail-span {
+  font-weight: 300;
+}
+
+.transactions-container {
+  display: flex;
+}
+
+.filter-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.filter {
+  margin: 10px 0;
+  background-color: #f7f7f7;
+  border-radius: 10px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.transactions-table-wrapper {
+  max-width: 100%;
+  overflow-x: auto;
+  max-height: 80vh;
+}
+
+.link {
+  color: black;
+}
